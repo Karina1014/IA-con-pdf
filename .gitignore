@@ -1,0 +1,35 @@
+# Ignorar entornos virtuales
+venv/
+env/
+*.env
+
+# Archivos de configuración específicos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+
+# Archivos de configuración de IDE
+.vscode/
+.idea/
+
+# Archivos de configuración de PyCharm y otros editores
+*.iml
+
+# Archivos de distribución
+*.egg
+*.egg-info
+dist/
+build/
+
+# Archivos de logs
+*.log
+
+# Archivos temporales de OS
+.DS_Store
+Thumbs.db
+
+# Dependencias de Python no necesarias para el repositorio
+*.pyd
+*.so
